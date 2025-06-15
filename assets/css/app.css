@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(172, 172, 246);
+    font-size: x-large;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: royalblue;
+    text-align: center;
+}
+
+button {
+    color: #ffffff;
+    background-color: #23612d;
+    object-position: 3rem;
+}
+
+p {
+    color: #000000a5;
+    background-color: aliceblue;
+    text-align: justify;
+    font-size: larger;
+}

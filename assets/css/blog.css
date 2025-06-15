@@ -1,0 +1,56 @@
+/* attribute selector */
+input[type="text"] {
+    color: brown;
+}
+input[type="password"] {
+    color: rgb(255, 4, 4);
+}
+
+/* decendant selector */
+.cek1 p {
+    color: blueviolet;
+    font-size: 150%;
+}
+
+/* direct decendant (element didalam element)*/
+.cek2 > p {
+    color: chocolate;
+    font-size: 200%;
+}
+
+/* pseudo classes */
+.cek3 > p:hover {
+    cursor: pointer;
+    color: #5459AC;
+    text-decoration: underline;
+}
+section button:hover{
+    background-color: cornflowerblue;
+}
+section:nth-of-type(2n) {
+    background-color: aliceblue;
+}
+/* 2n (untuk kelipatan 2 */
+
+/* pseudo elements */
+section h3::first-letter {
+    font-size: xx-large;
+}
+section p::first-line {
+    color: coral;
+}
+section h3::after {
+    content: '###';
+}
+
+/* adjacent selector (element disebelahnya) */
+a + button {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+
+
+p {
+    font-size: medium;
+}

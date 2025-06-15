@@ -1,0 +1,21 @@
+div {
+    width: 300px;
+    text-align: justify;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 30px;
+}
+
+/* border */
+.div2 {
+    width: 300px;
+    text-align: justify;
+    /* padding short: vertikal & horizontal */
+    padding: 10px 50px;
+    border: rgb(114, 72, 241);
+    /* border style position: top right bottom left; */
+    border-style: dashed dotted solid double;
+    border-width: 10px 15px 20px 30px;
+    /* margin vertikal horizontal */
+    margin: 30px 10px;
+}

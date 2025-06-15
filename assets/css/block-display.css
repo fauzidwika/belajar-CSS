@@ -1,0 +1,21 @@
+h1 {
+    background-color: beige;
+    border: solid 2px;
+    width: 100px;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    /* property display yang tadinya block display (1 baris untuk 1 element) menjadi 1 baris */
+    display: inline-block;
+    /* display: none; untuk hiding element */
+    
+}
+
+span {
+    background-color: brown;
+    border: solid 2px;
+    width: 10px;
+    margin: 50px;
+}
+
+/* block display dapat dirubah width, margin dllnya, tapi inline display hanya dapat dirubah marginnya saja */

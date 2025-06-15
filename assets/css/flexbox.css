@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    color: rgba(141, 44, 239, 0.555);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    background-color: rgba(114, 224, 218, 0.381);
+    width: 90%;
+    /* height: 500px; */
+    margin: 0 auto;
+    border: solid 5px rgba(121, 130, 153, 0.708);
+    /* flex digunkan pada element pembungkus div (container) */
+    display: flex;
+    /* flex direction untuk mengatur posisi axis */
+    flex-direction: row;
+    /* untuk mempertahankan posisi element sesuai dengan ukuran yang diberikan tergantung dengan directionnya row/column*/
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* atur posisi element didalam container */
+    align-items: center;
+}
+
+#container div { 
+    width: 200px;
+    height: 200px;
+    flex-basis: 400px;
+    /* text-size-adjust: 3px; */
+}
+
+/* flex grow akan ngambil space kosong 
+div:nth-of-type(1) {
+    flex-grow: 1;
+}
+div:nth-of-type(5) {
+    flex-grow: 1;
+}*/
+
+/* flex shrink akan mengecilkan content yang didalam container lebih dulu (flex-wrap off) */
+
+div:nth-of-type(1) {
+    flex-shrink: 1,5;
+}
+div:nth-of-type(5) {
+    flex-shrink: 2;
+}
+/* self align items
+div:nth-of-type(2) {
+    align-self: flex-start;
+}
+div:nth-of-type(3) {
+    align-self: self-end;
+}
+div:nth-of-type(4) {
+    align-self: flex-end;
+} 
+*/
+
+/* flexboxshorthand */
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+/* penulisannya | flex grow | flex shrink | flex basis */
+main .sidebar {
+    background-color: cornflowerblue;
+    flex: 1 2 200px;
+}
+
+main .content {
+    background-color: blue;
+    flex: 2 1 800px;
+}

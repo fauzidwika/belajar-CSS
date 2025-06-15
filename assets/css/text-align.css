@@ -1,0 +1,34 @@
+h1 {
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline rgba(116, 116, 240, 0.986);
+}
+
+h2 {
+    font-weight: bold;
+    /* font size ada relative dan absolute */
+    /* relative (digunakan untuk web responsive) ukurannya tidak baku (e.g:em,rem,vh,vw,%,dll */
+    /* absolute ukurannya fix (e.g:px,pt,cm,in,mm */
+    font-size: 200%; 
+    text-align: start;
+    text-decoration: dashed;
+}
+
+h3 {
+    text-align: end;
+    font-size: 2em;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    text-decoration: none;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+a {
+    /* hilangin tanda anchor */
+    text-decoration: none;
+    color: black;
+}
